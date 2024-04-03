@@ -13,12 +13,14 @@ function App() {
             <div>
               <div><h1 className='main-banner-tittle'>ImagineCloud</h1></div>
               <div>
-                "Tu Tiempo Importa, Nuestro Tecnología
-                Simplifica: ¡Vive más, Preocúpate menos!"
+                <p className='main-banner-substittle'>
+                    "Tu Tiempo Importa, Nuestro Tecnología
+                    Simplifica: ¡Vive más, Preocúpate menos!"
+                </p>
               </div>
               <div>
-                <button>Contactanos</button>
-                <button>Conocenos</button>
+                <button className='main-banner-button'>Contactanos</button>
+                <button className='main-banner-button'>Conocenos</button>
               </div>
             </div>
             <div>  <img src={programmer} alt="imagine Cloud" /></div>
