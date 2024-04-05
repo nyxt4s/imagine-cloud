@@ -20,6 +20,11 @@
     color: #fff;
 }
 
+.main-banner-image{
+    max-width: 100%;
+    height: auto;
+}
+
 .main-banner-substittle{
     font-size: 32px;
     color: #fff;
@@ -32,6 +37,12 @@
     padding: 7px;
     border-radius: 21px ;
     border: none;
+    margin: 7px;
+}
+
+.main-banner-container{
+    text-align: center;
+    align-items: center;
 }
 
 .main-banner-button:hover{
